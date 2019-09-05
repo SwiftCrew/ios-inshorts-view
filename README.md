@@ -9,7 +9,7 @@ Here, UICollectionView for implementing vertical swipe  up-done for next/previou
 Add `InshortsLayout` class into your project 
 
 #### Step 2
-* Clike on layout
+* Click on layout
 
 
 <img width="268" alt="Screenshot 2019-09-04 at 10 08 46 PM" src="https://user-images.githubusercontent.com/15169802/64274291-ae531000-cf60-11e9-8a97-923dc8b118b8.png">
