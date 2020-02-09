@@ -8,7 +8,7 @@
 
 import UIKit
 
-class InshortLayout: UICollectionViewLayout {
+class InshortsLayout: UICollectionViewLayout {
     // Change Offset
     public var widthOffset: CGFloat = 35
     public var heightOffset: CGFloat = 35
