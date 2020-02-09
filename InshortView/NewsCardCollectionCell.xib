@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,22 +17,27 @@
                 <rect key="frame" x="0.0" y="0.0" width="495" height="592"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XO1-3O-i3e">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Steve_Jobs_The_Man" translatesAutoresizingMaskIntoConstraints="NO" id="XO1-3O-i3e">
                         <rect key="frame" x="0.0" y="0.0" width="495" height="237"/>
                         <color key="backgroundColor" red="1" green="0.2156862745" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </imageView>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zeU-Li-DAj">
-                        <rect key="frame" x="10" y="247" width="475" height="185"/>
+                        <rect key="frame" x="10" y="247" width="475" height="262"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13r-MW-r23">
-                                <rect key="frame" x="0.0" y="0.0" width="475" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steve Jobs" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13r-MW-r23">
+                                <rect key="frame" x="0.0" y="0.0" width="475" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="dpQ-do-GpY"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYf-N1-rWN">
-                                <rect key="frame" x="0.0" y="51" width="475" height="134"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <rect key="frame" x="0.0" y="40" width="475" height="222"/>
+                                <mutableString key="text">In 1996, Apple announced that it would buy NeXT for $427 million. The deal was finalized in February 1997,[147] bringing Jobs back to the company he had cofounded. Jobs became de facto chief after then-CEO Gil Amelio was ousted in July 1997. He was formally named interim chief executive in September.[148] In March 1998, to concentrate Apple's efforts on returning to profitability, Jobs terminated a number of projects, such as Newton, Cyberdog, and OpenDoc. In the coming months, many employees developed a fear of encountering Jobs while riding in the elevator, "afraid that they might not have a job when the doors opened. The reality was that Jobs's summary executions were rare, but a handful of victims was enough to terrorize a whole company."[149] Jobs changed the licensing program for Macintosh clones, making it too costly for the manufacturers to continue making machines.
+
+With the purchase of NeXT, much of the company's technology found its way into Apple products, most notably NeXTSTEP, which evolved into Mac OS X. Under Jobs's guidance, the company increased sales significantly with the introduction of the iMac and other new products; since then, appealing designs and powerful branding have worked well for Apple. At the 2000 Macworld Expo, Jobs officially dropped the "interim" modifier from his title at Apple and became permanent CEO.[150] Jobs quipped at the time that he would be using the title "iCEO".[151]</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="0.72892323370000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -45,30 +48,30 @@
                         </constraints>
                     </stackView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sPR-Pk-oUs" userLabel="BottomView">
-                        <rect key="frame" x="0.0" y="543" width="495" height="49"/>
+                        <rect key="frame" x="0.0" y="524" width="495" height="68"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QCQ-oL-wuc">
-                                <rect key="frame" x="0.0" y="0.0" width="495" height="49"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Steve_Jobs_The_Man" translatesAutoresizingMaskIntoConstraints="NO" id="QCQ-oL-wuc">
+                                <rect key="frame" x="0.0" y="0.0" width="495" height="68"/>
                                 <color key="backgroundColor" red="1" green="0.2156862745" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6X3-2C-HSn">
-                                <rect key="frame" x="0.0" y="0.0" width="495" height="49"/>
+                                <rect key="frame" x="0.0" y="0.0" width="495" height="68"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zx3-Wj-zWi">
-                                    <rect key="frame" x="0.0" y="0.0" width="495" height="49"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="495" height="68"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </view>
                                 <blurEffect style="dark"/>
                             </visualEffectView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="GYo-JH-8xp">
-                                <rect key="frame" x="10" y="5" width="475" height="39"/>
-                                <state key="normal" title="Meseum also displayed message from sridevi fans Tap to know more">
+                                <rect key="frame" x="10" y="5" width="475" height="58"/>
+                                <state key="normal" title="Steve Jobs Tap to know more">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="49" id="3e7-7F-cjg"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="49" id="3e7-7F-cjg"/>
                             <constraint firstAttribute="bottom" secondItem="GYo-JH-8xp" secondAttribute="bottom" constant="5" id="5mD-Ci-lWv"/>
                             <constraint firstItem="GYo-JH-8xp" firstAttribute="leading" secondItem="sPR-Pk-oUs" secondAttribute="leading" constant="10" id="BxS-Z0-dCK"/>
                             <constraint firstItem="QCQ-oL-wuc" firstAttribute="leading" secondItem="sPR-Pk-oUs" secondAttribute="leading" id="CZT-jY-ceW"/>
@@ -96,6 +99,7 @@
                 <constraint firstAttribute="trailing" secondItem="sPR-Pk-oUs" secondAttribute="trailing" id="aXa-8d-Yia"/>
                 <constraint firstItem="sPR-Pk-oUs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ekj-EK-EDq"/>
                 <constraint firstAttribute="trailing" secondItem="zeU-Li-DAj" secondAttribute="trailing" constant="10" id="hjr-4n-psb"/>
+                <constraint firstItem="sPR-Pk-oUs" firstAttribute="top" secondItem="ZTg-uK-7eu" secondAttribute="bottom" priority="999" constant="-34" id="icK-bi-M9a"/>
                 <constraint firstItem="XO1-3O-i3e" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="lDk-TO-mVs"/>
                 <constraint firstItem="sPR-Pk-oUs" firstAttribute="top" relation="greaterThanOrEqual" secondItem="zeU-Li-DAj" secondAttribute="bottom" constant="15" id="qed-gr-v3c"/>
             </constraints>
@@ -104,4 +108,7 @@
             <point key="canvasLocation" x="264.49275362318843" y="143.97321428571428"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="Steve_Jobs_The_Man" width="600" height="400"/>
+    </resources>
 </document>
