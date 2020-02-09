@@ -19,7 +19,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="AP2-5Q-FhP">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewLayout key="collectionViewLayout" id="MUd-WF-KyT" customClass="InshortsLayout" customModule="InshortView" customModuleProvider="target"/>
+                                <collectionViewLayout key="collectionViewLayout" id="MUd-WF-KyT" customClass="InshortLayout" customModule="InshortView" customModuleProvider="target"/>
                                 <cells/>
                             </collectionView>
                         </subviews>

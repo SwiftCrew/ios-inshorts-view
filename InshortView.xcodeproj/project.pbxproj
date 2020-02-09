@@ -14,7 +14,7 @@
 		4A4B388D232018C000CD27F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4B388B232018C000CD27F9 /* LaunchScreen.storyboard */; };
 		4A4B3898232018C000CD27F9 /* InshortViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B3897232018C000CD27F9 /* InshortViewTests.swift */; };
 		4A4B38A3232018C000CD27F9 /* InshortViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B38A2232018C000CD27F9 /* InshortViewUITests.swift */; };
-		4A4B38B1232018D900CD27F9 /* InshortsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B38B0232018D900CD27F9 /* InshortsLayout.swift */; };
+		4A4B38B1232018D900CD27F9 /* InshortLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B38B0232018D900CD27F9 /* InshortLayout.swift */; };
 		4A4B38B42320190A00CD27F9 /* NewsCardCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B38B22320190A00CD27F9 /* NewsCardCollectionCell.swift */; };
 		4A4B38B52320190A00CD27F9 /* NewsCardCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A4B38B32320190A00CD27F9 /* NewsCardCollectionCell.xib */; };
 /* End PBXBuildFile section */
@@ -50,7 +50,7 @@
 		4A4B389E232018C000CD27F9 /* InshortViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InshortViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4B38A2232018C000CD27F9 /* InshortViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InshortViewUITests.swift; sourceTree = "<group>"; };
 		4A4B38A4232018C000CD27F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A4B38B0232018D900CD27F9 /* InshortsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InshortsLayout.swift; sourceTree = "<group>"; };
+		4A4B38B0232018D900CD27F9 /* InshortLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InshortLayout.swift; sourceTree = "<group>"; };
 		4A4B38B22320190A00CD27F9 /* NewsCardCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCardCollectionCell.swift; sourceTree = "<group>"; };
 		4A4B38B32320190A00CD27F9 /* NewsCardCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCardCollectionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,7 +105,7 @@
 			children = (
 				4A4B3882232018BF00CD27F9 /* AppDelegate.swift */,
 				4A4B3884232018BF00CD27F9 /* InshortViewController.swift */,
-				4A4B38B0232018D900CD27F9 /* InshortsLayout.swift */,
+				4A4B38B0232018D900CD27F9 /* InshortLayout.swift */,
 				4A4B38B22320190A00CD27F9 /* NewsCardCollectionCell.swift */,
 				4A4B38B32320190A00CD27F9 /* NewsCardCollectionCell.xib */,
 				4A4B3886232018BF00CD27F9 /* Main.storyboard */,
@@ -266,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A4B38B1232018D900CD27F9 /* InshortsLayout.swift in Sources */,
+				4A4B38B1232018D900CD27F9 /* InshortLayout.swift in Sources */,
 				4A4B3885232018BF00CD27F9 /* InshortViewController.swift in Sources */,
 				4A4B38B42320190A00CD27F9 /* NewsCardCollectionCell.swift in Sources */,
 				4A4B3883232018BF00CD27F9 /* AppDelegate.swift in Sources */,

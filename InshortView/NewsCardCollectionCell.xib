@@ -17,7 +17,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="495" height="592"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Steve_Jobs_The_Man" translatesAutoresizingMaskIntoConstraints="NO" id="XO1-3O-i3e">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Steve_Jobs_The_Man" translatesAutoresizingMaskIntoConstraints="NO" id="XO1-3O-i3e">
                         <rect key="frame" x="0.0" y="0.0" width="495" height="237"/>
                         <color key="backgroundColor" red="1" green="0.2156862745" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </imageView>
