@@ -1,4 +1,4 @@
-# InshortView
+# InshortsView
 Here, UICollectionView for implementing vertical swipe  up-done for next/previous cards, like News Inshorts application.
 ## Requirements
 - Xcode 10+
@@ -6,22 +6,22 @@ Here, UICollectionView for implementing vertical swipe  up-done for next/previou
 
 ### How to use by Interface
 #### Step 1
-Add `InshortLayout` class into your project 
+Add `InshortsLayout` class into your project 
 
 #### Step 2
 * Click on layout
 
 
-<img width="268" alt="Screenshot 2019-09-04 at 10 08 46 PM" src="https://user-images.githubusercontent.com/15169802/74109898-b0736780-4bad-11ea-8eea-8ade70af1497.png">
+<img width="268" alt="Screenshot 2019-09-04 at 10 08 46 PM" src="https://user-images.githubusercontent.com/15169802/74110035-f7ae2800-4bae-11ea-9bad-d4aebbcb7ecb.png">
 
 #### Step 3
-* Import `InshortLayout` layout class 
+* Import `InshortsLayout` layout class 
 
-<img width="256" alt="Screenshot 2019-09-04 at 10 08 40 PM" src="https://user-images.githubusercontent.com/15169802/74109891-99347a00-4bad-11ea-8704-9889185ed252.png">
+<img width="256" alt="Screenshot 2019-09-04 at 10 08 40 PM" src="https://user-images.githubusercontent.com/15169802/74110041-085e9e00-4baf-11ea-8008-7a2316d11b6d.png">
 
 
 #### Step 4
-* Click on CollectionView go to attributeinspector select `layout` type `custom` and then import the class `InshortLayout` and enable paging.
+* Click on CollectionView go to attributeinspector select `layout` type `custom` and then import the class `InshortsLayout` and enable paging.
 
 <img width="255" alt="Screenshot 2019-09-04 at 10 08 31 PM" src="https://user-images.githubusercontent.com/15169802/64274507-2588a400-cf61-11e9-9d9f-70da27741e01.png">
 
