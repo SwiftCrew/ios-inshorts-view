@@ -12,12 +12,12 @@ Add `InshortLayout` class into your project
 * Click on layout
 
 
-<img width="268" alt="Screenshot 2019-09-04 at 10 08 46 PM" src="https://user-images.githubusercontent.com/15169802/64274291-ae531000-cf60-11e9-8a97-923dc8b118b8.png">
+<img width="268" alt="Screenshot 2019-09-04 at 10 08 46 PM" src="https://user-images.githubusercontent.com/15169802/74109898-b0736780-4bad-11ea-8eea-8ade70af1497.png">
 
 #### Step 3
 * Import `InshortLayout` layout class 
 
-<img width="256" alt="Screenshot 2019-09-04 at 10 08 40 PM" src="https://user-images.githubusercontent.com/15169802/64274447-0ab62f80-cf61-11e9-9253-bb433e847c8a.png">
+<img width="256" alt="Screenshot 2019-09-04 at 10 08 40 PM" src="https://user-images.githubusercontent.com/15169802/74109891-99347a00-4bad-11ea-8704-9889185ed252.png">
 
 
 #### Step 4
